@@ -1,0 +1,28 @@
+class Practical1 {
+    public static void main(String args[]) {
+
+        byte b = 20;
+        short s = 2907;
+        int i = 987654;
+        long l = 1234567890L;
+        float f = 12.5f;
+        double d = 3.14159;
+        char c = 'A';
+        boolean flag = true;
+
+        String name = "Welcome to Java Programming";
+
+        System.out.println("Byte value: " + b);
+        System.out.println("Short value: " + s);
+        System.out.println("Int value: " + i);
+        System.out.println("Long value: " + l);
+
+        System.out.println("Float value: " + f);
+        System.out.println("Double value: " + d);
+
+        System.out.println("Character value: " + c);
+        System.out.println("Boolean value: " + flag);
+
+        System.out.println("String value: " + name);
+    }
+}
